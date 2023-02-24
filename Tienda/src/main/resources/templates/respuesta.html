@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security" class="default-style layout-fixed layout-navbar-fixed">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respuesta</title>
+</head>
+<body>
+    <h1 th:text="${estado}" style="text-align: Center;"></h1>
+    <p><i>Collection_id:</i> <span th:text="${collection_id}"></span></p>
+    <p><i>Collection_status:</i> <span th:text="${collection_status}"></span></p>
+    <p><i>Payment_id:</i> <span th:text="${payment_id}"></span></p>
+    <p><i>Status:</i> <span th:text="${status}"></span></p>
+    <p><i>External_reference:</i> <span th:text="${external_reference}"></span></p>
+    <p><i>Payment_type:</i> <span th:text="${payment_type}"></span></p>
+    <p><i>Merchant_order_id:</i> <span th:text="${merchant_order_id}"></span></p>
+    <p><i>Peference_id:</i> <span th:text="${preference_id}"></span></p>
+    <p><i>Site_id:</i> <span th:text="${site_id}"></span></p>
+    <p><i>Processing_mode:</i> <span th:text="${processing_mode}"></span></p>
+    <p><i>Merchant_account_id:</i> <span th:text="${merchant_account_id}"></span></p>
+</body>
+</html>
